@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center"
+            android:text="Nutrients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="As you transition to a plant-based diet you will have to know different nutrients to be careful of to maintain a healthy diet"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|center"
+                android:text="Iron"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8BC34A"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="554dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:lineSpacingExtra="6dp"
+                android:text="Iron is a mineral in the blood that carries oxygen. Getting enough iron is important for everyone, especially pregnant women, women of childbearing age, children, and infants. \n\nIron-rich plant foods include whole-grain breads and cereals, dried beans and peas, dark green leafy vegetables, dried fruits, nuts, and seeds. Some foods, such as breakfast cereals, are fortified with iron. \n\nThe type of iron found in plant foods is not absorbed as easily as the iron in animal products. However, eating iron-rich foods along with vitamin C can help your body better use the iron. Some foods with vitamin C are oranges, mangos, kiwis, strawberries, red. peppers, tomatoes, broccoli, and bok choy. Some people may need to take a supplement. \n \n The daily recommended amount is 8.7mg for men and 14.8 for women "
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

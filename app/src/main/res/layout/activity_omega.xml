@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center"
+            android:text="Nutrients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="As you transition to a plant-based diet you will have to know different nutrients to be careful of to maintain a healthy diet"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|center"
+                android:text="Omega-3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8BC34A"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:lineSpacingExtra="6dp"
+                android:text="Omega-3 fatty acids, such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) found in fatty fish, may lower the risk of heart disease and help the immune system and brain.\n\nGood sources of plant-based omega-3 fats include ground. flaxseeds and. flaxseed oil, walnuts, chia seeds, and organic canola oil.\n\n Plant-based omega-3s dont easily convert to EPA and DHA in the body. For some people, including pregnant women or people with chronic health conditions, taking a micro-algae supplement may be helpful. Ask your physician for more information \n\n The daily recommendations is 1.6g for males and 1.1g for females "
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

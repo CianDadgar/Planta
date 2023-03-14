@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center"
+            android:text="Nutrients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="As you transition to a plant-based diet you will have to know different nutrients to be careful of to maintain a healthy diet"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|center"
+                android:text="B-12"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8BC34A"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="568dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:lineSpacingExtra="6dp"
+                android:text="Your body needs vitamin B12 to make red blood cells and for nerve function. If you don\'t get enough B12, you can develop anemia or nerve damage. Most B12 comes from animal foods. B12 is found in nutritional yeast and some fortified foods such as: \n \n Cereals \n Meat substitutes \n Rice or hemp milk \n \nRead labels for these products to make sure B12 has been added. \n \n Because it may not be easy to get enough B12 from fortified foods, it may be best to take a supplement.The recommended daily amount to consume is 2.4 micrograms (mgs) a day  As you get older, your body is less able to absorb B12. Your physician may suggest a supplement or shot to help prevent a deficiency. Talk with your physician or registered dietitian for more information. \n \n "
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

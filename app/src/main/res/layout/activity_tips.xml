@@ -1,0 +1,71 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="112dp"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="start|center"
+        android:text="Tips and Tricks"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:text="Tips and tricks you must know to help make the transition easier"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:id="@+id/textview4"
+            android:layout_width="match_parent"
+            android:layout_height="571dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/think_about_the_meatless_meals_you_already_cook_at_home_this_may_include_whole_wheat_pasta_with_marinara_sauce_black_beans_and_rice_or_lentil_soup_and_salad_n_n_change_a_favorite_recipe_to_be_plant_based_n_n_make_burritos_or_tacos_with_beans_rice_and_vegetables_without_the_meat_and_cheese_n_n_prepare_chili_with_beans_and_no_meat_n_n_replace_burgers_with_veggie_burgers_or_grilled_portobello_mushrooms_n_n_make_kebabs_with_vegetables_such_as_onions_bell_peppers_summer_squash_and_mushrooms_n_n_make_lentil_or_split_pea_soup_without_adding_meat_or_using_chicken_or_beef_broth_n_n_try_some_new_recipes_at_the_end_of_this_booklet_you_will_find_a_list_of_books_and_websites_that_have_recipes_you_can_try_you_can_also_get_cookbooks_from_your_local_library_or_kaiser_permanente_healthy_living_store_n_n_frozen_fruits_and_vegetables_are_an_easy_and_low_cost_way_to_eat_more_plants_when_you_cook_beans_from_scratch_the_quick_soak_method_can_help_remove_some_of_the_indigestible_sugars_that_cause_gas_n_n_put_the_beans_in_a_large_pot_and_cover_with_2_inches_of_water_bring_to_a_boil_for_3_minutes_n_n_cover_and_set_aside_for_1_to_4_hours_n_n_rinse_and_drain_well_n_n_make_sure_to_drink_plenty_of_water_it_is_best_to_avoid_juice_soda_and_other_sugary_drinks_n_n_choose_organic_foods_when_possible_especially_corn_vegetables_fruits_and_soy_products_n_n_check_out_a_local_farmers_market_for_good_deals_on_produce_sometimes_cooking_plant_based_meals_can_take_more_time_to_save_time_n_n_make_a_larger_pot_of_beans_or_lentils_and_freeze_some_for_later_buy_precut_fresh_or_frozen_vegetables_n_n_buy_precooked_grains_such_as_barley_farro_or_brown_and_wild_rice_n_n_when_baking_yams_or_potatoes_make_a_few_extra_to_use_in_the_next_meal_n_n_use_canned_beans_including_nonfat_refried_beans_n_n_try_firm_tofu_cut_in_slices_and_seasoned_with_spices_and_green_onions_n_n_if_your_family_is_not_following_a_plant_based_diet_with_you_n_n_cook_meat_separately_and_add_it_to_the_other_plant_based_foods_n_n_encourage_your_family_to_try_more_meatless_meals_n_n_try_new_recipes_they_might_enjoy_such_as_five_bean_chili_without_meat_or_portobello_mushroom_burgers_n_n_you_might_need_to_add_a_few_items_to_your_kitchen_including_n_n_a_good_chef_s_knife_to_cut_vegetables_fruits_and_other_plant_based_foods_n_n_a_blender_or_food_processor_n_n_a_large_pot_pressure_cooker_or_crockpot_to_cook_beans"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>
+
+
+
+
+

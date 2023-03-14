@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "952273237077",
+    "firebase_url": "https://veg2-18ac4-default-rtdb.firebaseio.com",
+    "project_id": "veg2-18ac4",
+    "storage_bucket": "veg2-18ac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952273237077:android:5cf6f019037b1dc21710dc",
+        "android_client_info": {
+          "package_name": "com.example.planta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952273237077-hmumdlpvevld9650u66914rus1embq6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfrKREV-2j9O2bT4tqRzgP5BUuGAknlYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952273237077-hmumdlpvevld9650u66914rus1embq6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952273237077:android:fce4534e595ebaea1710dc",
+        "android_client_info": {
+          "package_name": "com.example.veg2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952273237077-hmumdlpvevld9650u66914rus1embq6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfrKREV-2j9O2bT4tqRzgP5BUuGAknlYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952273237077-hmumdlpvevld9650u66914rus1embq6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center"
+            android:text="Food Groups"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="As you transition to a plant-based diet you will have to know different food-groups to maintain a healthy diet"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|center"
+                android:text="Dairy Alternatives"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8BC34A"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:lineSpacingExtra="6dp"
+                android:text="Here are some examples of Dairy Alternatives. One serving for milk would be one cup and one ounce for cheese. For your daily serving you should aim for 0-2 servings.
+\n \nExamples:  \n\nun-sweetened milks \nsoy-milk \nalmondmilk \nrice-milk \nhemp-milk \noat-milk \ncoconut-milk \n(look for brands fortified with vitamin B12)
+ "
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center"
+            android:text="Food Groups"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="As you transition to a plant-based diet you will have to know different food-groups to maintain a healthy diet"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/starchyVeg"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:id="@+id/starchyVeg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/wsv" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Starchy Vegitatbles"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nonStarchVeg"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp"
+                    tools:visibility="visible"
+                    android:clickable="true"
+                    android:focusable="true"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/nonStarchVeg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:focusable="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/nostarch" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Non-Starchy Vegitables"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fruits"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:id="@+id/fruits2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/fruit" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fruits"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/legumes"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/legumes2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:clickable="false"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/beans" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Legumes"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nands"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/nands2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/nutsandseeds" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nuts and Seeds"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/wholegrains"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp"
+                    tools:visibility="visible"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:id="@+id/wholegrains2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/wholegrains" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Whole Grains"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fando"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/fando2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/fatsandoils" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fats and Oils"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dairyalternatives"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp"
+                    app:cardCornerRadius="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/dairyalternatives2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="105dp"
+                            android:clickable="false"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="160dp"
+                                android:layout_height="160dp"
+                                android:padding="10dp"
+                                android:src="@drawable/dairy" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dairy Alternatives"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center"
+            android:text="Nutrients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="As you transition to a plant-based diet you will have to know different nutrients to be careful of to maintain a healthy diet"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|center"
+                android:text="Protein"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#8BC34A"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:lineSpacingExtra="6dp"
+                android:text="Protein is in every cell of the body. It is used to build and repair muscles, bone, skin, and the immune system. We also need it to make hormones and enzymes. Proteins are made up of amino acids. Your body can make some of the amino acids, but not all of them. \n\nThe ones your body cannot make are called essential. You can easily meet your protein needs each day from plant foods such as beans, peas, nuts, seeds, soy products, whole grains, and vegetables. Quinoa, a seed that acts like a grain, is a great source of protein and all the essential amino acids. \n\n Adults need about 0.36 grams of protein per pound of body weight a day. Multiply your weight by 0.36 to find out how much protein you need. For example, if you weigh 160 pounds: 160 x 0.36 = about 58 grams of protein a day. \n \n "
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

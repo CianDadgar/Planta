@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="112dp"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="start|center"
+        android:text="Assessment"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:text="The information section aims to help inform you on everything you need to know when transitioning to a Plant-Based diet"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="571dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="6dp"
+            android:text="If you are at risk of any of these click this link to read further on extra precautions, you must take as your diet recommendations and transitions will vary. Disclosing I am not a trained professional and you should seek advice from a dietitian if transitioning to a plantbase diet with underlying health conditions
+        \n
+        \nThe Following list are underlying conditions that have complication with dietary changes. Contact you dieticion before making a transition as different messures need to be taken due to health conditions. \n \n
+•	1. Diabetes \n
+•	2. Heart Failure \n
+•	3. Arthritis \n
+•	4. Obesity \n
+•	5. Cancer \n
+•	6. COPD (chronic obstructive pulmonary disease) \n
+•	7. Strokes \n
+•	8. Kidney Disease \n
+•	9. Alzheimer’s Disease \n
+•	10. Anxiety and Depression \n
+•	11. Inflammatory Bowel Disease (Crohn’s disease, ulcers, ulcerative colitis) \n
+•	12. Parkinson’s Disease \n
+•	13. HIV \n
+•	14. Hypothyroidism (Underactive Thyroid) \n
+•	15. Hepatitis \n
+https://www.webmd.com/healthy-aging/medical-conditions-nutrition#1
+\n \n
+•	Bone health \n
+•	Decrease inflammation(IBD, arthritis, asthma) \n
+•	Brain health\n
+•	Heart health \n
+https://www.takingcharge.csh.umn.edu/what-should-i-eat-my-specific-condition" />            android:textColor="#000000"/>
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

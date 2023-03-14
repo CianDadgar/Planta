@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/startup"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:text="Create Account"
+        android:textAllCaps="true"
+        android:theme="@style/Button.Green"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Log In"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:theme="@style/Button.Green"/>
+
+    <TextView
+        android:id="@+id/login_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="9dp"
+        android:text="Already a user? LogIn"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
